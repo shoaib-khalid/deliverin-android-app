@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private void openWebview(String URL) {
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webSettings.setBuiltInZoomControls(true);
+        //webSettings.setBuiltInZoomControls(true);
         webSettings.setDomStorageEnabled(true);
         webView.setWebViewClient(new WebViewClient() {
             @Override
